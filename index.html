@@ -21,22 +21,20 @@
             <i class="fa-solid fa-bars"></i>
           </div>
         </nav>
-        <img src="./media/thumbnail.jpeg" class="song-img" />
-        <h1 id="title">Let me down slowly</h1>
-        <p id="artist">Alec Benjamin</p>
-        <audio id="song">
-          <source src="./media/song.mp3" type="audio/mpeg" />
-        </audio>
+        <img src="" class="song-img" />
+        <h1 id="title"></h1>
+        <p id="artist"></p>
+        <audio id="song" src="" type="audio/mpeg"></audio>
 
         <input type="range" value="0" id="progress" />
         <div class="controls">
-          <div>
+          <div onclick="playPrev()">
             <i class="fa-solid fa-backward"></i>
           </div>
           <div onclick="playPause()">
             <i class="fa-solid fa-play" id="ctrlIcon"></i>
           </div>
-          <div>
+          <div onclick="playNext()">
             <i class="fa-solid fa-forward"></i>
           </div>
         </div>
